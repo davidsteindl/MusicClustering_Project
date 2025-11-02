@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+*.venv
+conda-meta/
+
+# IDE
+.idea/
+.vscode/
+
+# Data & outputs
+data/
+*.csv
+*.json
+*.pkl
+*.npy
+*.npz
+
+# Reports / figures
+figures/
+reports/
+
+# Credentials
+*.env
+*.key
+*.secret
+*.token
+
+# System files
+.DS_Store
+Thumbs.db

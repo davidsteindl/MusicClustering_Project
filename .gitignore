@@ -13,6 +13,7 @@ conda-meta/
 .vscode/
 
 # Data & outputs
+models/
 data/
 *.csv
 *.json

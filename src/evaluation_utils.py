@@ -63,3 +63,35 @@ def plot_clusters_bubbleplot(df, dataset_name):
     )
 
     fig.show()
+
+
+def cluster_genre_stats(df, cluster_col="kmeans_cluster"):
+    dist = (
+        df
+        .groupby([cluster_col, "track_genre"])
+        .size()
+        .rename("count")
+        .reset_index()
+    )
+
+    dist["share"] = dist["count"] / dist.groupby(cluster_col)["count"].transform("sum")
+    return dist
+
+
+def dominant_genres(dist, cluster_col="kmeans_cluster"):
+    return (
+        dist
+        .sort_values("count", ascending=False)
+        .groupby(cluster_col)
+        .first()
+        .reset_index()
+    )
+
+
+def show_cluster(dist, cluster_id, cluster_col="kmeans_cluster", top_n=5):
+    return (
+        dist
+        .query(f"{cluster_col} == @cluster_id")
+        .sort_values("count", ascending=False)
+        .head(top_n)
+    )

@@ -91,33 +91,30 @@ The final result is an interactive Popcorn Map:
 
 ### Full View:
 
-![img_2.png](images/img_2.png)
+[Open interactive Popcorn Map](./popcorn_map.html)
 
-### Zoomed in:
+![Popcorn_Base.png](images/Popcorn_Full.png)
 
-- **Upper Left Quarter:**
-  ![img_7.png](images/img_7.png)
+### Zoomed in by 60% :
 
-- **Upper Right Quarter:**
-  ![img_8.png](images/img_8.png)
+- **Top Left Quarter:**
+![Popcorn_TopLeft.png](images/Popcorn_TopLeft.png)
 
-- **Lower Left Quarter:**
-  ![img_9.png](images/img_9.png)
+- **Top Right Quarter:**
+ ![Popcorn_TopRight.png](images/Popcorn_TopRight.png)
 
-- **Lower Right Quarter:**
-  ![img_10.png](images/img_10.png)
+- **Bottom Left Quarter:**
+![Popcorn_BottomLeft.png](images/Popcorn_BottomLeft.png)
 
----
+- **Bottom Right Quarter:**
+![Popcorn_BottomRight.png](images/Popcorn_BottomRight.png)
 
-### Observations:
 
-- **Comedy is the most different genre out of all, reflected by proximity to other genres on the map and very low share of
-  other genres in its respective cluster:**
+- **Full:**
 
-<div style="display: flex; gap: 16px;">
-  <img src="images/img_1.png" style="width: 50%; height: auto;" />
-  <img src="images/img.png" style="width: 50%; height: auto;" />
-</div>
+| ![](images/Popcorn_TopLeft.png) | ![newplot.png](images/Popcorn_TopRight.png) |
+|--------------------------------|----------------------------------|
+| ![](images/Popcorn_BottomLeft.png) | ![](images/Popcorn_BottomRight.png) |
 
 ---
 

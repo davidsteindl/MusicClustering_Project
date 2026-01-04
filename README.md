@@ -91,7 +91,7 @@ The final result is an interactive Popcorn Map:
 
 ### Full View:
 
-[Open interactive Popcorn Map](./popcorn_map.html)
+[Open interactive Popcorn Map](https://davidsteindl.github.io/MusicClustering_Project/popcorn_map.html)
 
 ![Popcorn_Base.png](images/Popcorn_Full.png)
 
